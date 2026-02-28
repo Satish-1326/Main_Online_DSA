@@ -1,8 +1,10 @@
+// Approach 1 to print the spiral pattern 
+
 class Demo{
 	public static void main(String[]args){
 		
-	int a = 3 ;
-	int size = (2*a) - 1 ;
+	int n = 3 ;
+	int size = (2 * n - 1) ;
 
 		for(int i = 1 ; i <= size ; i++){
 			for(int j = 1 ; j<= size ; j++){
@@ -12,12 +14,12 @@ class Demo{
 			int bottom = size - i ;
 			int right = size - j ;
 
-			int smallest1 = Math.min(top,bottom) ;
-			int smallest2 = Math.min(left,right) ;
+			int smallest1 = Math.min(top,left) ;
+			int smallest2 = Math.min(bottom , right) ;
 
-			int final_smallest = Math.min(smallest1,smallest1) ;
+			int final_smallest = Math.min(smallest1,smallest2) ;
 
-			int final_result = a - final_smallest;
+			int final_result = n - final_smallest;
 
 			System.out.print(final_result+" ");
 			}
@@ -25,3 +27,17 @@ class Demo{
 		}
 	}
 }
+
+/*
+
+
+OUTPUT :
+
+3 3 3 3 3
+3 2 2 2 3
+3 2 1 2 3
+3 2 2 2 3
+3 3 3 3 3
+
+
+*/
