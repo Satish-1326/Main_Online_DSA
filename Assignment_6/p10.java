@@ -1,7 +1,7 @@
 class Demo{
 	public static void main(String[]args){
 
-	int n=4;
+	int n=5;
 	fun(n);
 	}
 	
@@ -10,6 +10,7 @@ class Demo{
 			return ;
 		}
 	fun(n-1);
+	System.out.println("Hello "+n);
 	fun(n-2);
 	}
 }
