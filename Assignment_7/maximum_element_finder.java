@@ -3,7 +3,7 @@ class Demo{
 		
 	int [] arr = {3,9,1,7};
 	int result = fun(arr,0);
-	System.out.print(result);
+	System.out.print("Maximum element in the array : "+result);
 	}
 
 	static int fun(int [] arr , int index){
@@ -16,3 +16,11 @@ class Demo{
 	return Math.max(arr[index+1] , s_max);
 	}
 }
+
+/*
+
+OUTPUT :
+
+Maximum element in the array : 9
+
+*/
