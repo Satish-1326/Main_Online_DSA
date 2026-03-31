@@ -8,11 +8,9 @@ class Demo{
 
 	public static boolean fun(int [] arr , int index){
 		
-		if(index == arr.length-1){
-			if(arr[index] % 2 == 0){
+		if(index == arr.length){
+			
 				return true;
-			}
-		return false;
 		}
 
 	if(arr[index] % 2 != 0){

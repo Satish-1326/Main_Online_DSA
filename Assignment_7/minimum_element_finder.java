@@ -8,7 +8,7 @@ class Demo{
 
 	static int fun(int [] arr , int index){
 		if(index == arr.length-1){
-			return arr[0];
+			return arr[index];
 		}
 
 	int s_max = fun(arr,index + 1);

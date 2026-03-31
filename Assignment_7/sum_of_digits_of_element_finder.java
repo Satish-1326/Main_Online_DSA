@@ -14,8 +14,7 @@ class Demo{
 	int sum = 0;
 	int temp = arr[index];
 	while(temp != 0){
-		int digit = temp % 10;
-		sum += digit;
+		sum += temp % 10;
 		temp = temp / 10;
 		}
 

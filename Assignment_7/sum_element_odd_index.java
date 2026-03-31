@@ -7,7 +7,7 @@ class Demo{
 	}
 
 	static int fun(int [] arr , int index){
-		if(index >= arr.length-1){
+		if(index == arr.length){
 			return 0;
 		}
 		

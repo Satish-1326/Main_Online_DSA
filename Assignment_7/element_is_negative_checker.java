@@ -17,10 +17,7 @@ class Demo{
 	}
 
 	public static boolean fun(int [] arr , int index){
-		if(index == arr.length - 1){
-			if(arr[index] < 0){
-				return true;
-			}
+		if(index == arr.length){
 			return false;
 		}
 

@@ -22,12 +22,11 @@ class Demo{
 			return arr[index];
 		}
 		int s_maximum = fun_two(arr , index+1 , max_one);
-		int result = Math.max(arr[index] , s_maximum);
 
-		if(arr[index] != max_one){
-			return result;
+		if(arr[index] == max_one){
+			return s_maximum;
 		}
-		return s_maximum;
+		return Math.max(arr[index] , s_maximum);
 	}
 }
 

@@ -8,10 +8,7 @@ class Demo{
 	}
 
 	static int fun(int [] arr , int index , int k){
-		if(index == arr.length-1){
-			if(arr[index] % 2 == 0){
-				return 1;
-			}
+		if(index == arr.length){
 		return 0;
 		}
 
