@@ -66,25 +66,25 @@ import java.util.*;
 //
 //}
 
-class Demo{
-    public static void main(String[] args) {
-        int [] arr = {1,2,1,3,2,1};
-        int f_count = 0;
-
-        for(int i = 0 ; i < arr.length ; i++){
-            int count = 0;
-            for(int j = i + 1 ; j < arr.length ; j++){
-                if(arr[i] == arr[j]){
-                    count++;
-                }
-            }
-            if(count > Integer.MIN_VALUE){
-                f_count = arr[i];
-            }
-        }
-        System.out.println(f_count);
-    }
-}
+//class Demo{
+//    public static void main(String[] args) {
+//        int [] arr = {1,2,1,3,2,1};
+//        int f_count = 0;
+//
+//        for(int i = 0 ; i < arr.length ; i++){
+//            int count = 0;
+//            for(int j = i + 1 ; j < arr.length ; j++){
+//                if(arr[i] == arr[j]){
+//                    count++;
+//                }
+//            }
+//            if(count > Integer.MIN_VALUE){
+//                f_count = arr[i];
+//            }
+//        }
+//        System.out.println(f_count);
+//    }
+//}
 
 //class Demo{
 //    public static void main(String[] args) {
@@ -126,3 +126,111 @@ class Demo{
 //        System.out.println(f);
 //    }
 //}
+
+
+//class Demo{
+//    public static void main(String[]args){
+//        int [] arr = {1,2,1,3,2,1};
+//        int result = Integer.MAX_VALUE;
+//        int f = 0;
+//
+//        for(int i = 0 ; i < arr.length ; i++){
+//            int count = 0;
+//            for(int j = 0 ; j < arr.length ; j++){
+//                if(arr[i] == arr[j]){
+//                    count++;
+//                }
+//            }
+//            if(count < result){
+//                result =count;
+//                f = arr[i];
+//            }
+//        }
+//        System.out.println(f);
+//    }
+//}
+
+//class Demo{
+//    public static void main(String[]args){
+//        int [] arr = {1,2,1,3,2,1};
+//
+//        int max = Integer.MIN_VALUE;
+//        for(int i = 0 ; i < arr.length ; i++){
+//            if(arr[i] > max){
+//                max = arr[i];
+//            }
+//        }
+//
+//        int [] freq = new int[max+1];
+//        for(int i = 0 ; i < arr.length ; i++){
+//            freq[arr[i]]++;
+//        }
+//        int result = 0;
+//        for(int i = 0 ; i < freq.length ; i++){
+//            if(freq[i] == 1 ){
+//                result = i;
+//            }
+//        }
+//        System.out.println(result);
+//    }
+//}
+
+//class Demo{
+//    public static void main(String[]args){
+//        int [] arr = {1,2,1,3,2,1};
+//
+//        HashMap<Integer,Integer>hm = new HashMap<>();
+//        for(int i = 0 ; i < arr.length ; i++){
+//            hm.put(arr[i] , hm.getOrDefault(arr[i] , 0 )+1);
+//        }
+//
+//        int ans = -1;
+//        int min = Integer.MAX_VALUE;
+//        for(int key : hm.keySet()){
+//            if(hm.get(key) < min){
+//                min = hm.get(key);
+//                ans = key;
+//            }
+//        }
+//        System.out.println(ans);
+//    }
+//}
+
+//class Demo{
+//    public static void main(String[]args){
+//        int [] arr = {1,2,1,3,2,1};
+//        int final_one = 0;
+//
+//        for(int i = 0 ; i < arr.length ; i++){
+//            int count = 0 ;
+//            for(int j = 0 ; j < arr.length ; j++){
+//                if(arr[i] == arr[j]){
+//                    count++;
+//                }
+//            }
+//            if(count == 1){
+//                final_one = arr[i];
+//            }
+//        }
+//        System.out.println(final_one);
+//    }
+//}
+
+class Demo{
+    public static void main(String[]args){
+        int [] arr = {1,2,1,3,2,1};
+
+        HashMap<Integer,Integer>hm = new HashMap<>();
+        for(int i = 0 ; i < arr.length ; i++){
+            hm.put(arr[i] , hm.getOrDefault(arr[i] , 0)+1);
+        }
+
+        int distinct = 0;
+        for(int key : hm.keySet()){
+            if(hm.get(key) == 1){
+                distinct = key;
+            }
+        }
+        System.out.println(distinct);
+    }
+}
