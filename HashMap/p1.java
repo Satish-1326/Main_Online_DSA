@@ -216,21 +216,41 @@ import java.util.*;
 //    }
 //}
 
+//class Demo{
+//    public static void main(String[]args){
+//        int [] arr = {1,2,1,3,2,1};
+//
+//        HashMap<Integer,Integer>hm = new HashMap<>();
+//        for(int i = 0 ; i < arr.length ; i++){
+//            hm.put(arr[i] , hm.getOrDefault(arr[i] , 0)+1);
+//        }
+//
+//        int distinct = 0;
+//        for(int key : hm.keySet()){
+//            if(hm.get(key) == 1){
+//                distinct = key;
+//            }
+//        }
+//        System.out.println(distinct);
+//    }
+//}
+
 class Demo{
     public static void main(String[]args){
-        int [] arr = {1,2,1,3,2,1};
+        HashMap<String,Integer>hm = new HashMap<>();
+        hm.put("satish",50);
+        hm.put("sakshi",100);
+        hm.put("ravi",null);
 
-        HashMap<Integer,Integer>hm = new HashMap<>();
-        for(int i = 0 ; i < arr.length ; i++){
-            hm.put(arr[i] , hm.getOrDefault(arr[i] , 0)+1);
-        }
+        System.out.println(hm);
 
-        int distinct = 0;
-        for(int key : hm.keySet()){
-            if(hm.get(key) == 1){
-                distinct = key;
-            }
+        System.out.println(hm.get("satish"));
+        System.out.println(hm.get("ravi"));
+
+
+        for(String key : hm.keySet()) {
+            System.out.println("key : " + key + " = " + "value : " + hm.get(key));
+            hm.remove("ravi");
         }
-        System.out.println(distinct);
     }
 }
