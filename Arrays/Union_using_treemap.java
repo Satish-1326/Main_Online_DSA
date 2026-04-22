@@ -78,6 +78,7 @@ class Union_using_merge {
             }
             j++;
         }
-        System.out.print(al);
+
+        System.out.print("Union of array "+al);
     }
 }
