@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/50_Patterns" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Assignment_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Assignment_2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Assignment_3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Assignment_4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Assignment_5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Assignment_6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Assignment_7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Assignment_8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Coding_Practice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Extra_Codes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HashMap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Home_Work" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Leetcode" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TCS NQT-20260320T133244Z-1-001" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sakshi" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

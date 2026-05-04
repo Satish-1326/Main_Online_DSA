@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lecture_codes/10-4-2026/10-4-2026.iml" filepath="$PROJECT_DIR$/Lecture_codes/10-4-2026/10-4-2026.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_codes/11-4-2026/11-4-2026.iml" filepath="$PROJECT_DIR$/Lecture_codes/11-4-2026/11-4-2026.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_codes/4-7-26/4-7-26.iml" filepath="$PROJECT_DIR$/Lecture_codes/4-7-26/4-7-26.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment_10/Assignment_10.iml" filepath="$PROJECT_DIR$/Assignment_10/Assignment_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment_9/Assignment_9.iml" filepath="$PROJECT_DIR$/Assignment_9/Assignment_9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture_codes/Lecture_codes.iml" filepath="$PROJECT_DIR$/Lecture_codes/Lecture_codes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Online_DSA.iml" filepath="$PROJECT_DIR$/Online_DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/giri_tech/giri_tech.iml" filepath="$PROJECT_DIR$/giri_tech/giri_tech.iml" />
+    </modules>
+  </component>
+</project>
