@@ -55,7 +55,11 @@ class Leetcode_2221_Find_Triangular_Sum_of_an_Array_optimal{
             }
             list = final_r;
         }
-        System.out.println(list);
+        int result = 0;
+        for (int i = 0; i < list.size(); i++) {
+            result = list.get(i);
+        }
+        System.out.println(result);
     }
 }
 
