@@ -23,3 +23,9 @@ public class Max_row_sum {
         System.out.println("Index : "+index+", Max Sum : "+main_max);
     }
 }
+/*
+
+OUTPUT :
+Index : 2, Max Sum : 25
+
+ */
