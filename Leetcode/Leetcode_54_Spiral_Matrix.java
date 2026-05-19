@@ -95,3 +95,52 @@ class Leetcode_54_Spiral_Matrix_using_list{
         System.out.println(al);
     }
 }
+
+class Leetcode_54_Spiral_Matrix_using_list_broot{
+    public static void main(String[] args){
+        int [][] arr = {
+                {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12},
+                {13, 14, 15, 16}
+        };
+        int frow = 0;
+        int fcol = 0;
+        int lrow = arr.length - 1;
+        int lcol = arr[0].length - 1;
+        int total = arr.length * arr[0].length;
+
+        int dir = - 1;
+        while (total != 0){
+            dir = (dir + 1) % 4 ;
+            if(dir == 0){
+                for (int j = fcol  ; j <= lcol; j++) {
+                    System.out.print(arr[frow][j]+" ");
+                    total--;
+                }
+                frow++;
+            }
+            if(dir == 1){
+                for (int i = frow; i <= lrow; i++) {
+                    System.out.print(arr[i][lcol]+" ");
+                    total--;
+                }
+                lcol--;
+            }
+            if(dir == 2){
+                for (int j = lcol; j >= fcol ; j--) {
+                    System.out.print(arr[lrow][j]+" ");
+                    total--;
+                }
+                lrow--;
+            }
+            if(dir == 3){
+                for (int i = lrow; i >= frow; i--) {
+                    System.out.print(arr[i][fcol]+" ");
+                    total--;
+                }
+                fcol++;
+            }
+        }
+    }
+}

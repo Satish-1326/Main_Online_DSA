@@ -20,10 +20,6 @@ public class Remove_duplicates_from_sorted_array {
             new_arr[k] = al.get(i);
             k++;
         }
-//        System.out.println(al.size());
-//        for (int i = 0; i < new_arr.length; i++) {
-//            System.out.print(new_arr[i]+" ");
-//        }
         int result = new_arr.length;
         ;
         System.out.println(result);
