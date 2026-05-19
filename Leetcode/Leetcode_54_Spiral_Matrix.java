@@ -3,10 +3,15 @@ import java.util.ArrayList;
 public class Leetcode_54_Spiral_Matrix {
     public static void main(String[] args) {
         int[][] arr = {
-                {1, 2, 3, 4},
-                {5, 6, 7, 8},
-                {9, 10, 11, 12},
-                {13, 14, 15, 16}
+//                {1, 2, 3, 4},
+//                {5, 6, 7, 8},
+//                {9, 10, 11, 12},
+//                {13, 14, 15, 16},
+//                {17,18,19,20}
+                {0,0,0,0},
+                {0,0,0,0},
+                {0,0,0,0},
+                {0,0,0,0}
         };
 
         int m = arr.length;
@@ -26,9 +31,15 @@ public class Leetcode_54_Spiral_Matrix {
                 System.out.print(arr[i][ecol] + " ");
             }
             for (int j = ecol - 1; j >= scol; j--) {
+                if(erow == srow){
+                    break;
+                }
                 System.out.print(arr[erow][j] + " ");
             }
             for (int i = erow - 1; i >= srow + 1; i--) {
+                if(scol == ecol){
+                    break;
+                }
                 System.out.print(arr[i][scol] + " ");
             }
             srow++;
