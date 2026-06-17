@@ -76,3 +76,46 @@ class Merge_String{
         System.out.println(sb);
     }
 }
+
+class Reverse_Word_In_Sentence{
+    public static void main(String[] args){
+        String s = "Reverse word in a string";
+
+        String [] words = s.split(" ");
+        StringBuilder sb = new StringBuilder();
+
+        for(String word : words){
+            for (int i = word.length()-1; i >= 0; i--) {
+                sb.append(word.charAt(i));
+            }
+            sb.append(" ");
+        }
+        System.out.println(sb);
+    }
+}
+
+class Reverse_Only_Letters{
+    public static void main(String[] args){
+        String s = "Test1ng-Leet=code-Q!";
+
+        StringBuilder sb = new StringBuilder(s);
+
+        int start = 0;
+        int end = s.length()-1;
+
+        while (start < end){
+            while(start < end &&!Character.isLetter(sb.charAt(start))){
+                start++;
+            }
+           while(start < end && !Character.isLetter(sb.charAt(end))){
+                end--;
+            }
+            char ch = sb.charAt(start);
+            sb.setCharAt(start,sb.charAt(end));
+            sb.setCharAt(end,ch);
+            start++;
+            end--;
+        }
+        System.out.println(sb);
+    }
+}
