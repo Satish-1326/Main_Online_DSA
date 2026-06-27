@@ -24,3 +24,19 @@ public class Find_First_Even {
         return ans;
     }
 }
+
+
+class Shubham_mane_code{
+    public static void main(String[] args){
+        int n = 135;
+        int original = n;
+        int sum = 0;
+
+        String num = String.valueOf(n);
+        for (int i = 0; i < num.length(); i++) {
+            int digit = num.charAt(i) - '0';
+            sum += Math.pow(digit, i+1);
+        }
+        System.out.println(sum);
+    }
+}
