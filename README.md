@@ -21,7 +21,7 @@ Welcome to my **Data Structures and Algorithms Repository**.
 
 This repository contains all of my Java programming practice collected during my engineering journey. It includes:
 
-- 📚 College Assignments
+- 📚 DSA Assignments
 - 💻 DSA Practice
 - 🧩 LeetCode Solutions
 - 🎯 Placement Preparation
