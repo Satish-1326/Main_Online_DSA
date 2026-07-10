@@ -2,7 +2,7 @@
 
 <p align="center">
 
-# 🚀 Data Structures & Algorithms (DSA) Repository
+# 🚀 Data Structures & Algorithms (DSA) Repository (By - Raviraj sir)
 
 **A comprehensive Java DSA repository containing coding practice, college assignments, LeetCode solutions, interview preparation, and placement-focused problems.**
 
