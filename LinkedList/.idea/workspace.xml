@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce5167cf-bba8-4cf5-a4bd-30b7b9978e78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Leetcode/Leetcode_1979_Find_Greatest_Common_Divisor_of_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LinkedList.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/src/Pract_one.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/Pract_one.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode/Leetcode_3550_Smallest_Index_With_Digit_Sum_Equal_to_Index.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +27,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Pract_one.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Satish/Desktop/Codex/Online_DSA/LinkedList&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Satish/Desktop/Codex/Online_DSA/LinkedList/Practice/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Pract_one.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Satish/Desktop/Codex/Online_DSA/LinkedList",
+    "onboarding.tips.debug.path": "C:/Users/Satish/Desktop/Codex/Online_DSA/LinkedList/Practice/src/Main.java"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Pract_one" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pract_one" />
