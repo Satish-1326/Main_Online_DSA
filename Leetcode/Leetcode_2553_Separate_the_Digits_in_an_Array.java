@@ -30,3 +30,24 @@ public class Leetcode_2553_Separate_the_Digits_in_an_Array {
     }
 }
 
+class practice{
+    public static void main(String[] args){
+        int [] arr = {4,5,2,10,8};
+        int [] result = new int[arr.length];
+
+        for (int i = 0; i < arr.length; i++) {
+            result[i] = -1;
+            for (int j = i+1; j < arr.length; j++) {
+                if(arr[i] < arr[j]){
+                    result[i] = arr[j];
+                    break;
+                }
+            }
+        }
+
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i]+" ");
+        }
+    }
+}
+
