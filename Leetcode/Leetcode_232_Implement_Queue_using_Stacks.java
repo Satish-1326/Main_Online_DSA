@@ -36,7 +36,7 @@ class MyQueue{
         }
         return val;
     }
-    
+
     public boolean empty(){
         return s1.isEmpty();
     }
